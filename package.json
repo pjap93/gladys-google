@@ -1,0 +1,10 @@
+{
+  "name": "gladys-google",
+  "version": "0.1.0",
+  "description": "This module connects Gladys to Google APIs",
+  "dependencies": {
+    "googleapis": "^16.0.0"
+  },
+  "author": "Pierre-Gilles Leymarie",
+  "license": "CC-BY-NC-SA-3.0"
+}
