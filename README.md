@@ -48,3 +48,15 @@ gladys.modules.google.calendar.sync().then(console.log).catch(console.log);
 You should see in Gladys logs all calendars synced.
 
 Congrats !
+
+## Usage
+
+I recommend to sync your calendars a first time with either a script, or by clicking on the "configuration" button
+(Clicking on "configuration" simply start a sync).
+
+Then, you can create a cron schedule telling "Every 30 minutes" => sync in Gladys.
+
+- First, create an alarm in "Alarms". Create a cron rule with the following rule : "0 0,30 * * * *".
+- Then create a scenario with this alarm selected, and put in action "Sync calendars".
+
+If the action does not exist, go to parameters and update Gladys data.
