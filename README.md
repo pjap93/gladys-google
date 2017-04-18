@@ -9,6 +9,7 @@ This module allows you to connect to Google API.
 - Visit [Google Developpers Console](https://console.developers.google.com/project)
 - Click **CREATE PROJECT**
 - Enter a *Project Name* (for example "Gladys") , then click **CREATE**
+- On the dashboard, click under **API Google Apps** on **Calendar API**, then **Activate** this API so your project will have access to Google Calendar API. 
 - Then select *APIs & auth* from the sidebar and click on *Credentials* tab
 - Click **CREATE NEW CLIENT ID** button :
  - **Application Type**: Other
