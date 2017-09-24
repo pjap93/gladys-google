@@ -17,7 +17,7 @@ This module allows you to connect to Google API.
 - Copy past the client ID and the client secret
 
 - Go to Gladys, and install the google module
-- Go to parameters, then tabs "Parameters", then create 3 Params :
+- Go to parameters, then tabs "User Parameters", then create 3 Params :
   - **GOOGLE_API_CLIENT_ID** : The client ID you copy pasted before
   - **GOOGLE_API_CLIENT_SECRET** : Ths client secret
   - **GOOGLE_API_REDIRECT_URL**: urn:ietf:wg:oauth:2.0:oob
@@ -26,7 +26,7 @@ This module allows you to connect to Google API.
 - Create a script in Gladys, with the following code :
 
 ```javascript
-gladys.modules.google.getRedirectUrl().then(console.log).catch(console.log);
+gladys.modules.google.getRedirectUrl({id: YOUR_USER_ID}).then(console.log).catch(console.log);
 ```
 
 - Then, go to Gladys logs on your Raspberry Pi (Type : `pm2 logs gladys`), you should see an 
